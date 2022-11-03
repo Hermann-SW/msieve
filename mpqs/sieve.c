@@ -84,7 +84,7 @@ void do_sieving(msieve_obj *obj, mp_t *n,
 	   are designed to work out of L2 cache most of the
 	   time anyway */
 
-	if (obj->cache_size1 == 32768)
+	if (1 || obj->cache_size1 == 32768)
 		conf.sieve_block_size = sieve_block_size = 32768;
 	else 
 		conf.sieve_block_size = sieve_block_size = 65536;
