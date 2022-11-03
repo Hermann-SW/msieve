@@ -1,0 +1,39 @@
+Thu Nov  3 23:29:32 2022  
+Thu Nov  3 23:29:32 2022  
+Thu Nov  3 23:29:32 2022  Msieve v. 1.53 (SVN unknown)
+Thu Nov  3 23:29:32 2022  random seeds: 075bcd15 3ade68b1
+Thu Nov  3 23:29:32 2022  factoring 71641520761751435455133616475667090434063332228247871795429 (59 digits)
+Thu Nov  3 23:29:32 2022  no P-1/P+1/ECM available, skipping
+Thu Nov  3 23:29:32 2022  commencing quadratic sieve (59-digit input)
+Thu Nov  3 23:29:32 2022  using multiplier of 2
+Thu Nov  3 23:29:32 2022  using generic 64kb sieve core
+Thu Nov  3 23:29:32 2022  sieve interval: 2 blocks of size 65536
+Thu Nov  3 23:29:32 2022  processing polynomials in batches of 51
+Thu Nov  3 23:29:32 2022  using a sieve bound of 54799 (2765 primes)
+Thu Nov  3 23:29:32 2022  using large prime bound of 2630352 (21 bits)
+Thu Nov  3 23:29:32 2022  using trial factoring cutoff of 21 bits
+Thu Nov  3 23:29:32 2022  polynomial 'A' values have 7 factors
+Thu Nov  3 23:29:33 2022  2903 relations (1422 full + 1481 combined from 12329 partial), need 2861
+Thu Nov  3 23:29:33 2022  begin with 13751 relations
+Thu Nov  3 23:29:33 2022  reduce to 4177 relations in 2 passes
+Thu Nov  3 23:29:33 2022  attempting to read 4177 relations
+Thu Nov  3 23:29:33 2022  recovered 4177 relations
+Thu Nov  3 23:29:33 2022  recovered 3699 polynomials
+Thu Nov  3 23:29:33 2022  attempting to build 2903 cycles
+Thu Nov  3 23:29:33 2022  found 2903 cycles in 1 passes
+Thu Nov  3 23:29:33 2022  distribution of cycle lengths:
+Thu Nov  3 23:29:33 2022     length 1 : 1422
+Thu Nov  3 23:29:33 2022     length 2 : 1481
+Thu Nov  3 23:29:33 2022  largest cycle: 2 relations
+Thu Nov  3 23:29:33 2022  matrix is 2765 x 2903 (0.4 MB) with weight 73637 (25.37/col)
+Thu Nov  3 23:29:33 2022  sparse part has weight 73637 (25.37/col)
+Thu Nov  3 23:29:33 2022  filtering completed in 3 passes
+Thu Nov  3 23:29:33 2022  matrix is 2623 x 2687 (0.3 MB) with weight 66996 (24.93/col)
+Thu Nov  3 23:29:33 2022  sparse part has weight 66996 (24.93/col)
+Thu Nov  3 23:29:33 2022  commencing Lanczos iteration
+Thu Nov  3 23:29:33 2022  memory use: 0.4 MB
+Thu Nov  3 23:29:33 2022  lanczos halted after 43 iterations (dim = 2619)
+Thu Nov  3 23:29:33 2022  recovered 62 nontrivial dependencies
+Thu Nov  3 23:29:33 2022  p30 factor: 200429218120815554269743635437
+Thu Nov  3 23:29:33 2022  p30 factor: 357440504101388365610785389017
+Thu Nov  3 23:29:33 2022  elapsed time 00:00:01

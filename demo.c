@@ -89,6 +89,7 @@ void print_usage(char *progname) {
 	printf("\nnumbers starting with '0' are treated as octal,\n"
 		"numbers starting with '0x' are treated as hexadecimal\n");
 	printf("\noptions:\n"
+	         "   -S <seed1> <seed2>\n"
 	         "   -s <name> save intermediate results to <name>\n"
 		 "             instead of the default %s\n"
 	         "   -l <name> append log information to <name>\n"
@@ -309,7 +310,7 @@ void *countdown_thread(void *pminutes) {
 int main(int argc, char **argv) {
 
 	char buf[500];
-	uint32 seed1, seed2;
+	uint32 seed1, seed2, sseed1=0, sseed2=0;
 	char *savefile_name = NULL;
 	char *logfile_name = NULL;
 	char *infile_name = "worktodo.ini";
@@ -360,6 +361,13 @@ int main(int argc, char **argv) {
 				print_usage(argv[0]);
 				return 0;
 
+			case 'S':
+				if (i+2 < argc) {
+				        sseed1 = atoi(argv[i+1]);
+				        sseed2 = atoi(argv[i+2]);
+					i += 2;
+				}
+				break;
 			case 'i':
 			case 's':
 			case 'l':
@@ -548,6 +556,11 @@ int main(int argc, char **argv) {
 	}
 
 	get_random_seeds(&seed1, &seed2);
+
+	if (sseed1 != 0 || sseed2 != 0) {
+	        seed1 = sseed1;
+	        seed2 = sseed2;
+	}
 
 	if (deadline) {
 #if defined(WIN32) || defined(_WIN64)
