@@ -493,7 +493,7 @@ void packed_matrix_init(msieve_obj *obj,
 	   in multithreaded runs */
 
 	block_size = 8192;
-	superblock_size = 3 * obj->cache_size2 / (4 * sizeof(uint64));
+	superblock_size = 524288; //3 * obj->cache_size2 / (4 * sizeof(uint64));
 
 	/* possibly override from the command line */
 
