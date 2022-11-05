@@ -1,44 +1,44 @@
-Fri Nov  4 01:15:54 2022  
-Fri Nov  4 01:15:54 2022  
-Fri Nov  4 01:15:54 2022  Msieve v. 1.53 (SVN unknown)
-Fri Nov  4 01:15:54 2022  random seeds: 075bcd15 3ade68b1
-Fri Nov  4 01:15:54 2022  factoring 7293469445285646172092483905177589838606665884410340391954917800303813280275279 (79 digits)
-Fri Nov  4 01:15:54 2022  no P-1/P+1/ECM available, skipping
-Fri Nov  4 01:15:54 2022  commencing quadratic sieve (79-digit input)
-Fri Nov  4 01:15:55 2022  using multiplier of 1
-Fri Nov  4 01:15:55 2022  using generic 32kb sieve core
-Fri Nov  4 01:15:55 2022  sieve interval: 12 blocks of size 32768
-Fri Nov  4 01:15:55 2022  processing polynomials in batches of 17
-Fri Nov  4 01:15:55 2022  using a sieve bound of 1149619 (44309 primes)
-Fri Nov  4 01:15:55 2022  using large prime bound of 114961900 (26 bits)
-Fri Nov  4 01:15:55 2022  using trial factoring cutoff of 27 bits
-Fri Nov  4 01:15:55 2022  polynomial 'A' values have 10 factors
-Fri Nov  4 01:18:11 2022  44530 relations (23504 full + 21026 combined from 238843 partial), need 44405
-Fri Nov  4 01:18:11 2022  begin with 262347 relations
-Fri Nov  4 01:18:11 2022  reduce to 62985 relations in 2 passes
-Fri Nov  4 01:18:11 2022  attempting to read 62985 relations
-Fri Nov  4 01:18:12 2022  recovered 62985 relations
-Fri Nov  4 01:18:12 2022  recovered 49633 polynomials
-Fri Nov  4 01:18:12 2022  attempting to build 44530 cycles
-Fri Nov  4 01:18:12 2022  found 44530 cycles in 1 passes
-Fri Nov  4 01:18:12 2022  distribution of cycle lengths:
-Fri Nov  4 01:18:12 2022     length 1 : 23504
-Fri Nov  4 01:18:12 2022     length 2 : 21026
-Fri Nov  4 01:18:12 2022  largest cycle: 2 relations
-Fri Nov  4 01:18:12 2022  matrix is 44309 x 44530 (6.5 MB) with weight 1345922 (30.23/col)
-Fri Nov  4 01:18:12 2022  sparse part has weight 1345922 (30.23/col)
-Fri Nov  4 01:18:12 2022  filtering completed in 3 passes
-Fri Nov  4 01:18:12 2022  matrix is 30288 x 30351 (4.8 MB) with weight 1020086 (33.61/col)
-Fri Nov  4 01:18:12 2022  sparse part has weight 1020086 (33.61/col)
-Fri Nov  4 01:18:12 2022  saving the first 48 matrix rows for later
-Fri Nov  4 01:18:12 2022  matrix includes 64 packed rows
-Fri Nov  4 01:18:12 2022  matrix is 30240 x 30351 (2.9 MB) with weight 711120 (23.43/col)
-Fri Nov  4 01:18:12 2022  sparse part has weight 453666 (14.95/col)
-Fri Nov  4 01:18:12 2022  using block size 8192 and superblock size 524288 for processor cache size 12288 kB
-Fri Nov  4 01:18:12 2022  commencing Lanczos iteration
-Fri Nov  4 01:18:12 2022  memory use: 1.7 MB
-Fri Nov  4 01:18:12 2022  lanczos halted after 480 iterations (dim = 30236)
-Fri Nov  4 01:18:13 2022  recovered 15 nontrivial dependencies
-Fri Nov  4 01:18:13 2022  p39 factor: 848184382919488993608481009313734808977
-Fri Nov  4 01:18:13 2022  p40 factor: 8598919753958678882400042972133646037727
-Fri Nov  4 01:18:13 2022  elapsed time 00:02:19
+Sat Nov  5 07:53:45 2022  
+Sat Nov  5 07:53:45 2022  
+Sat Nov  5 07:53:45 2022  Msieve v. 1.53 (SVN unknown)
+Sat Nov  5 07:53:45 2022  random seeds: 075bcd15 3ade68b1
+Sat Nov  5 07:53:45 2022  factoring 7293469445285646172092483905177589838606665884410340391954917800303813280275279 (79 digits)
+Sat Nov  5 07:53:45 2022  no P-1/P+1/ECM available, skipping
+Sat Nov  5 07:53:45 2022  commencing quadratic sieve (79-digit input)
+Sat Nov  5 07:53:45 2022  using multiplier of 1
+Sat Nov  5 07:53:45 2022  using generic 32kb sieve core
+Sat Nov  5 07:53:45 2022  sieve interval: 12 blocks of size 32768
+Sat Nov  5 07:53:45 2022  processing polynomials in batches of 17
+Sat Nov  5 07:53:45 2022  using a sieve bound of 1149619 (44309 primes)
+Sat Nov  5 07:53:45 2022  using large prime bound of 114961900 (26 bits)
+Sat Nov  5 07:53:45 2022  using trial factoring cutoff of 27 bits
+Sat Nov  5 07:53:45 2022  polynomial 'A' values have 10 factors
+Sat Nov  5 07:55:33 2022  44530 relations (23504 full + 21026 combined from 238843 partial), need 44405
+Sat Nov  5 07:55:34 2022  begin with 262347 relations
+Sat Nov  5 07:55:34 2022  reduce to 62985 relations in 2 passes
+Sat Nov  5 07:55:34 2022  attempting to read 62985 relations
+Sat Nov  5 07:55:34 2022  recovered 62985 relations
+Sat Nov  5 07:55:34 2022  recovered 49633 polynomials
+Sat Nov  5 07:55:34 2022  attempting to build 44530 cycles
+Sat Nov  5 07:55:34 2022  found 44530 cycles in 1 passes
+Sat Nov  5 07:55:34 2022  distribution of cycle lengths:
+Sat Nov  5 07:55:34 2022     length 1 : 23504
+Sat Nov  5 07:55:34 2022     length 2 : 21026
+Sat Nov  5 07:55:34 2022  largest cycle: 2 relations
+Sat Nov  5 07:55:34 2022  matrix is 44309 x 44530 (6.5 MB) with weight 1345922 (30.23/col)
+Sat Nov  5 07:55:34 2022  sparse part has weight 1345922 (30.23/col)
+Sat Nov  5 07:55:34 2022  filtering completed in 3 passes
+Sat Nov  5 07:55:34 2022  matrix is 30288 x 30351 (4.8 MB) with weight 1020086 (33.61/col)
+Sat Nov  5 07:55:34 2022  sparse part has weight 1020086 (33.61/col)
+Sat Nov  5 07:55:34 2022  saving the first 48 matrix rows for later
+Sat Nov  5 07:55:34 2022  matrix includes 64 packed rows
+Sat Nov  5 07:55:34 2022  matrix is 30240 x 30351 (2.9 MB) with weight 711120 (23.43/col)
+Sat Nov  5 07:55:34 2022  sparse part has weight 453666 (14.95/col)
+Sat Nov  5 07:55:34 2022  using block size 8192 and superblock size 524288 for processor cache size 12288 kB
+Sat Nov  5 07:55:34 2022  commencing Lanczos iteration
+Sat Nov  5 07:55:34 2022  memory use: 1.7 MB
+Sat Nov  5 07:55:34 2022  lanczos halted after 480 iterations (dim = 30236)
+Sat Nov  5 07:55:34 2022  recovered 15 nontrivial dependencies
+Sat Nov  5 07:55:34 2022  p39 factor: 848184382919488993608481009313734808977
+Sat Nov  5 07:55:34 2022  p40 factor: 8598919753958678882400042972133646037727
+Sat Nov  5 07:55:34 2022  elapsed time 00:01:49
