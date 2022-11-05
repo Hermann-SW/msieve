@@ -38,7 +38,7 @@ T15 frequency determined by:
     3900058
     $ 
 
-Pi400 ovberclocked from 1800MHz, frequency 2200MHz fixated for 64bit
+Pi400 overclocked from 1800MHz, frequency 2200MHz fixated for 64bit
 Raspberry Pi OS by this in "/boot/config.txt":
     ...
     force_turbo=1
