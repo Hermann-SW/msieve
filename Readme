@@ -1,3 +1,49 @@
+
+This fork mission statement:
+============================
+
+This fork is intended to compare CPU performance for factorizing integers
+with msieve accross different architectures.
+
+In order to do so, new option "-S <seed1> <seed2>" allows to force random
+sequences to start at specified values with change:
+https://github.com/Hermann-SW/msieve/commit/1e1cea4b37b07e3ece356ee6af1a4991df02a13e
+
+Size of sieve core was determined depending on cache_size1, which is different
+for different platforms. Fixated to 32768 with change:
+https://github.com/Hermann-SW/msieve/commit/62400435bbc8363d3440b0793d27081ab7202756
+
+Size of superblock was determined depending on cache_size2, which is different
+for different platforms. Fixated to 524288 with change:
+https://github.com/Hermann-SW/msieve/commit/bf496eacec49fcfb07e4ae1ca8aff3d7379624cd
+
+rsa-59 and rsa-79 numbers taken from:
+https://members.loria.fr/PZimmermann/records/rsa.html
+
+100-digit RSA number rsa-100 from here:
+https://en.wikipedia.org/wiki/RSA_numbers#RSA-100
+
+Runtimes for "cd test-...; make clean; make" in hh:mm:ss
+(factors and runtime in generated "msieve.log" with "tail")
+"nohib" row with hibernation turned off in Bios 
+
++------+----------+-----------+-----------!
+!model !   T480   !    T15    !   Pi400   !
+!cpu   ! i7-8650U ! i7-1165G7 !    A72    !
+!freq  !          !  3900MHz  !  2200MHz  !
++------+----------+-----------+-----------!
+!-59   !  0:00:02 !   0:00:02 !     ---   !
+!nohib !  0:00:02 !   0:00:02 !   0:00:06 !
++------+----------+-----------+-----------!
+!-79   !  0:02:55 !           !     ---   !
+!nohib !  0:02:36 !   0:01:49 !   0:06:40 !
++------+----------+-----------+-----------!
+!-100  !  3:52:41 !           !     ---   !
+!nohib !  3:31:39 !   2:28:00 !           !
++------+----------+-----------+-----------!
+
+
+==============================================
 MSIEVE: A Library for Factoring Large Integers
 Jason Papadopoulos
 
