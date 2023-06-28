@@ -92,7 +92,7 @@ fixated for 64bit Raspberry Pi OS by this in "/boot/config.txt":
     +-------------------+---------------+-----+
 
 
-
+Runtime comparison of other models to 7600X CPU desktopX:
 
 +------+----------+----------+----------+----------+----------+
 !      ! desktopK !  P1 gen4 !    T15   !   T480   !   Pi400  !
