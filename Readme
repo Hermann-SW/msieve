@@ -76,7 +76,7 @@ fixated for 64bit Raspberry Pi OS by this in "/boot/config.txt":
 !!Hyper!   0:00:06 !  0:00:02 !   0:00:02 !   0:00:02 !   0:00:01 !  0:00:01 !
 +------+-----------+----------+-----------+-----------+-----------+----------+
 !-79   !     ---   !  0:02:55 !   0:02:05 !   0:01:49 !   0:01:24 !    ---   !
-!!Hyper!   0:06:40 !  0:02:36 !   0:01:49 !   0:01:43 !   0:01:23 !  0:01:08 !
+!!Hyper!   0:06:40 !  0:02:36 !   0:01:49 !   0:01:43 !   0:01:23 !  0:01:10 !
 +------+-----------+----------+-----------+-----------+-----------+----------+
 !-100  !     ---   !  3:52:41 !   2:54:14 !   2:26:55 !   1:54:35 ! (5281MHz)!
 !!Hyper!  12:07:52 !  3:31:39 !   2:28:00 !   2:23:34 !   1:54:16 !  1:32:59 !
@@ -103,7 +103,7 @@ Runtime comparison of other models to 7600X CPU desktopX:
 !!Hyper!   100%   !   200%   !   200%   !   200%   !   600%   !
 +------!----------+----------+----------+----------+----------+
 !-79   !          !          !          !
-!!Hyper!   122%   !   151%   !   160%   !   229%   !   588%   !
+!!Hyper!   119%   !   147%   !   156%   !   223%   !   571%   !
 +------!----------+----------+----------+----------+----------+
 !-100  !          !          !          !
 !!Hyper!   123%   !   154%   !   159%   !   228%   !   782%   !
@@ -114,6 +114,44 @@ The generated "msieve.dat" is identical for same seeds and same number
 to factorize. This gets verified by "make" with "diff" against
 "msieve.dat.cmp" (53MB for test-100, 124MB for test-110):
 https://github.com/Hermann-SW/msieve/blob/master/test-100/Makefile#L7
+
+
+7600X CPU desktopX has 6 cores.
+Up to 6 parallel msieve calls were done in separate copies of msieve directory tree.
+Runtimes gradually increase, CPU frequencies decrease with more process:
+
+1:10 min
+msieve6/1/msieve/test-79/err:   371,739,026,813      cycles                    #    5.293 GHz                      (83.33%)
+
+1:12 min
+msieve6/1/msieve/test-79/err:   374,967,024,680      cycles                    #    5.216 GHz                      (83.33%)
+msieve6/2/msieve/test-79/err:   374,872,653,769      cycles                    #    5.216 GHz                      (83.33%)
+
+1:16 min
+msieve6/1/msieve/test-79/err:   386,032,497,732      cycles                    #    5.118 GHz                      (83.33%)
+msieve6/2/msieve/test-79/err:   387,321,325,871      cycles                    #    5.117 GHz                      (83.33%)
+msieve6/3/msieve/test-79/err:   387,315,233,581      cycles                    #    5.117 GHz                      (83.33%)
+
+1:18 min
+msieve6/1/msieve/test-79/err:   398,066,717,386      cycles                    #    5.059 GHz                      (83.34%)
+msieve6/2/msieve/test-79/err:   397,640,083,092      cycles                    #    5.059 GHz                      (83.33%)
+msieve6/3/msieve/test-79/err:   395,801,051,821      cycles                    #    5.060 GHz                      (83.33%)
+msieve6/4/msieve/test-79/err:   397,391,728,331      cycles                    #    5.059 GHz                      (83.33%)
+
+1:21 min
+msieve6/1/msieve/test-79/err:   403,068,576,402      cycles                    #    4.974 GHz                      (83.33%)
+msieve6/2/msieve/test-79/err:   404,041,429,008      cycles                    #    4.974 GHz                      (83.33%)
+msieve6/3/msieve/test-79/err:   404,427,159,631      cycles                    #    4.974 GHz                      (83.33%)
+msieve6/4/msieve/test-79/err:   403,342,426,496      cycles                    #    4.974 GHz                      (83.33%)
+msieve6/5/msieve/test-79/err:   405,200,193,386      cycles                    #    4.974 GHz                      (83.33%)
+
+1:24 min
+msieve6/1/msieve/test-79/err:   408,594,102,683      cycles                    #    4.874 GHz                      (83.34%)
+msieve6/2/msieve/test-79/err:   409,244,967,502      cycles                    #    4.873 GHz                      (83.33%)
+msieve6/3/msieve/test-79/err:   410,196,776,576      cycles                    #    4.873 GHz                      (83.33%)
+msieve6/4/msieve/test-79/err:   409,500,007,020      cycles                    #    4.874 GHz                      (83.33%)
+msieve6/5/msieve/test-79/err:   409,595,416,301      cycles                    #    4.873 GHz                      (83.33%)
+msieve6/6/msieve/test-79/err:   409,943,717,398      cycles                    #    4.874 GHz                      (83.33%)
 
 
 ==============================================
