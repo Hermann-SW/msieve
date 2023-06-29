@@ -154,6 +154,24 @@ msieve6/5/msieve/test-79/err:   409,595,416,301      cycles          #    4.873 
 msieve6/6/msieve/test-79/err:   409,943,717,398      cycles          #    4.874 GHz            (83.33%)
 
 
+The effect of running 6 factorizations of RSA-79 in parallel was not that bad (+20% runtime).
+This is not true anymore when factoring RSA-100 6x in parallel, runtime increases on average by 56.3%:
+
+msieve6/1/msieve/test-100/err:42.059.683.482.125      cycles         #    4,828 GHz            (83,33%)
+msieve6/2/msieve/test-100/err:42.495.931.215.001      cycles         #    4,831 GHz            (83,33%)
+msieve6/3/msieve/test-100/err:41.904.415.832.105      cycles         #    4,828 GHz            (83,33%)
+msieve6/4/msieve/test-100/err:41.885.949.839.277      cycles         #    4,828 GHz            (83,33%)
+msieve6/5/msieve/test-100/err:41.838.622.140.967      cycles         #    4,828 GHz            (83,33%)
+msieve6/6/msieve/test-100/err:42.278.306.830.982      cycles         #    4,830 GHz            (83,33%)
+
+msieve6/1/msieve/test-100/err:    8719,030817911 seconds time elapsed
+msieve6/2/msieve/test-100/err:    8804,531078977 seconds time elapsed
+msieve6/3/msieve/test-100/err:    8682,216018521 seconds time elapsed
+msieve6/4/msieve/test-100/err:    8680,344588666 seconds time elapsed
+msieve6/5/msieve/test-100/err:    8668,558242868 seconds time elapsed
+msieve6/6/msieve/test-100/err:    8757,420960075 seconds time elapsed
+
+
 ==============================================
 MSIEVE: A Library for Factoring Large Integers
 Jason Papadopoulos
