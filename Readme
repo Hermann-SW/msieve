@@ -121,37 +121,37 @@ Up to 6 parallel msieve calls were done in separate copies of msieve directory t
 Runtimes gradually increase, CPU frequencies decrease with more processes:
 
 1:10 min
-msieve6/1/msieve/test-79/err:   371,739,026,813      cycles          #    5.293 GHz                      (83.33%)
+msieve6/1/msieve/test-79/err:   371,739,026,813      cycles          #    5.293 GHz            (83.33%)
 
 1:12 min
-msieve6/1/msieve/test-79/err:   374,967,024,680      cycles          #    5.216 GHz                      (83.33%)
-msieve6/2/msieve/test-79/err:   374,872,653,769      cycles          #    5.216 GHz                      (83.33%)
+msieve6/1/msieve/test-79/err:   374,967,024,680      cycles          #    5.216 GHz            (83.33%)
+msieve6/2/msieve/test-79/err:   374,872,653,769      cycles          #    5.216 GHz            (83.33%)
 
 1:16 min
-msieve6/1/msieve/test-79/err:   386,032,497,732      cycles          #    5.118 GHz                      (83.33%)
-msieve6/2/msieve/test-79/err:   387,321,325,871      cycles          #    5.117 GHz                      (83.33%)
-msieve6/3/msieve/test-79/err:   387,315,233,581      cycles          #    5.117 GHz                      (83.33%)
+msieve6/1/msieve/test-79/err:   386,032,497,732      cycles          #    5.118 GHz            (83.33%)
+msieve6/2/msieve/test-79/err:   387,321,325,871      cycles          #    5.117 GHz            (83.33%)
+msieve6/3/msieve/test-79/err:   387,315,233,581      cycles          #    5.117 GHz            (83.33%)
 
 1:18 min
-msieve6/1/msieve/test-79/err:   398,066,717,386      cycles          #    5.059 GHz                      (83.34%)
-msieve6/2/msieve/test-79/err:   397,640,083,092      cycles          #    5.059 GHz                      (83.33%)
-msieve6/3/msieve/test-79/err:   395,801,051,821      cycles          #    5.060 GHz                      (83.33%)
-msieve6/4/msieve/test-79/err:   397,391,728,331      cycles          #    5.059 GHz                      (83.33%)
+msieve6/1/msieve/test-79/err:   398,066,717,386      cycles          #    5.059 GHz            (83.34%)
+msieve6/2/msieve/test-79/err:   397,640,083,092      cycles          #    5.059 GHz            (83.33%)
+msieve6/3/msieve/test-79/err:   395,801,051,821      cycles          #    5.060 GHz            (83.33%)
+msieve6/4/msieve/test-79/err:   397,391,728,331      cycles          #    5.059 GHz            (83.33%)
 
 1:21 min
-msieve6/1/msieve/test-79/err:   403,068,576,402      cycles          #    4.974 GHz                      (83.33%)
-msieve6/2/msieve/test-79/err:   404,041,429,008      cycles          #    4.974 GHz                      (83.33%)
-msieve6/3/msieve/test-79/err:   404,427,159,631      cycles          #    4.974 GHz                      (83.33%)
-msieve6/4/msieve/test-79/err:   403,342,426,496      cycles          #    4.974 GHz                      (83.33%)
-msieve6/5/msieve/test-79/err:   405,200,193,386      cycles          #    4.974 GHz                      (83.33%)
+msieve6/1/msieve/test-79/err:   403,068,576,402      cycles          #    4.974 GHz            (83.33%)
+msieve6/2/msieve/test-79/err:   404,041,429,008      cycles          #    4.974 GHz            (83.33%)
+msieve6/3/msieve/test-79/err:   404,427,159,631      cycles          #    4.974 GHz            (83.33%)
+msieve6/4/msieve/test-79/err:   403,342,426,496      cycles          #    4.974 GHz            (83.33%)
+msieve6/5/msieve/test-79/err:   405,200,193,386      cycles          #    4.974 GHz            (83.33%)
 
 1:24 min
-msieve6/1/msieve/test-79/err:   408,594,102,683      cycles          #    4.874 GHz                      (83.34%)
-msieve6/2/msieve/test-79/err:   409,244,967,502      cycles          #    4.873 GHz                      (83.33%)
-msieve6/3/msieve/test-79/err:   410,196,776,576      cycles          #    4.873 GHz                      (83.33%)
-msieve6/4/msieve/test-79/err:   409,500,007,020      cycles          #    4.874 GHz                      (83.33%)
-msieve6/5/msieve/test-79/err:   409,595,416,301      cycles          #    4.873 GHz                      (83.33%)
-msieve6/6/msieve/test-79/err:   409,943,717,398      cycles          #    4.874 GHz                      (83.33%)
+msieve6/1/msieve/test-79/err:   408,594,102,683      cycles          #    4.874 GHz            (83.34%)
+msieve6/2/msieve/test-79/err:   409,244,967,502      cycles          #    4.873 GHz            (83.33%)
+msieve6/3/msieve/test-79/err:   410,196,776,576      cycles          #    4.873 GHz            (83.33%)
+msieve6/4/msieve/test-79/err:   409,500,007,020      cycles          #    4.874 GHz            (83.33%)
+msieve6/5/msieve/test-79/err:   409,595,416,301      cycles          #    4.873 GHz            (83.33%)
+msieve6/6/msieve/test-79/err:   409,943,717,398      cycles          #    4.874 GHz            (83.33%)
 
 
 ==============================================
